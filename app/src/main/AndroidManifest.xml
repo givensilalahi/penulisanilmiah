@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gjsilalahi.penulisanilmiah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Belajar Alphabet"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".info" />
+        <activity android:name=".alphabet2" />
+        <activity android:name=".hurufA" />
+        <activity android:name=".hurufB" />
+        <activity android:name=".hurufC" />
+        <activity android:name=".hurufD" />
+        <activity android:name=".hurufE" />
+        <activity android:name=".hurufF" />
+        <activity android:name=".hurufG" />
+        <activity android:name=".hurufH" />
+        <activity android:name=".hurufI" />
+        <activity android:name=".hurufJ" />
+        <activity android:name=".hurufK" />
+        <activity android:name=".hurufL" />
+        <activity android:name=".hurufM" />
+        <activity android:name=".hurufN" />
+        <activity android:name=".hurufO" />
+        <activity android:name=".hurufP" />
+        <activity android:name=".hurufQ" />
+        <activity android:name=".hurufR" />
+        <activity android:name=".hurufS" />
+        <activity android:name=".hurufT" />
+        <activity android:name=".hurufU" />
+        <activity android:name=".hurufV" />
+        <activity android:name=".hurufW" />
+        <activity android:name=".hurufX" />
+        <activity android:name=".hurufY" />
+        <activity android:name=".hurufZ"></activity>
+    </application>
+
+</manifest>
